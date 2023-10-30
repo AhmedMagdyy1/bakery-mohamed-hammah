@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 600;
+}
+  
+ /*home*/
+.home{
+    background-image: url("./images/drew-coffman-1872.jpg");
+    background-size: 100% 100%;
+    height: 100vh;
+}
+.nav{
+    padding: 20px;
+}
+.home .nav img {
+   display: inline-block;
+ width: 160px;
+ padding-left: 20px;
+ cursor: pointer;
+
+   
+}
+.home .nav .item ul{
+    text-align: right;
+    padding-right: 40px;
+    margin-top: -25px;
+}
+
+.home .nav .item ul li{
+    display: inline-block;
+    color: white;
+    width: 70px;
+    cursor: pointer;
+
+}
+.home .home-text{
+    text-align: center;
+   
+    color: rgb(255, 255, 254);
+    padding-top: 150px;
+}
+.home-text h1{
+    font-size: 70px;
+    padding: 10px;
+      font-family: 'Alegreya', serif;
+    }
+
+.home-text p{
+    padding: 10px;
+    font-size: 20px;
+}
+.home-text button{
+    padding: 15px;
+    margin-right: 8px;
+    border-radius: 2px;
+    color: white;
+}
+ .btn1{
+    background-color: #785a46;
+    border: none;
+}
+.btn2{
+    background-color: transparent;
+    border: 0.5px solid white;
+}
+.btn1:hover,.btn2:hover{
+  background-color: white;
+  color: black;
+  transition: 0.8s;
+}
+/*...............*/
+.sec-2{
+   
+  padding: 50px 0 50px 50px;
+}
+.img{
+
+    display: inline;
+}
+
+ .sec-2 .img img{
+width: 45%;
+
+display: inline-block;
+ }
+ .sec-2 .sec-2-text{
+    display: inline-block;
+   
+    vertical-align: top;
+    width: 54%;
+    padding-left: 50px ;
+    padding-top: 70px;
+ }
+ .sec-2-text img{
+    width: 40px;
+    border: solid 1px #ccc9c9;
+    border-radius: 50%;
+    margin-right: 5px;
+ }
+
+
+ .sec-2-text P{
+    line-height: 2;
+    color: #686868;
+    text-align: left;
+ }
+ .sec-2-text .text{
+    padding: 40px 0;
+
+ }
+ .sec-2-text img{
+    vertical-align: middle;
+ }
+  .sec-2-text .icon{
+    padding-bottom: 20px ;
+  }
+  /*...............*/
+  .sec-3{
+    padding: 50px 0 50px 50px;
+    background-color: #f8f8f8;
+  }
+  .sec-3 .sec-3-text{
+     display: inline-block;
+  
+     width: 53%;
+     padding-right: 45px;
+     padding-top: 70px;
+     vertical-align: top;
+
+  }
+  .sec-3 img{
+    width: 45%;
+  }
+  .sec-3-text .text{
+    padding: 35px 0 30px 0;
+  }
+  .sec-3-text p{
+    line-height: 2;
+    color: #686868;
+    text-align: left;
+  }
+  /******/
+  .sec-4{
+
+    padding: 70px 50px 50px;
+  }
+  .sec-4 h1,.text{
+    text-align: center;
+  }
+  .sec-4 .text{
+    padding: 30px 0 60px 0;
+    color: #686868;
+  }
+
+ .sec-4-card .card{
+  width: 31%;
+  text-align: center;
+  float: left;
+ 
+  margin-right: 25px;
+
+ }
+ .sec-4-card img{
+  width: 100%;
+  padding-bottom: 20px;
+ }
+ .clear{
+  clear: both;
+ }
+ .sec-4-card p{
+  padding: 20px 0 20px 0;
+  line-height: 2;
+ color: #686868;
+ }
+ /*.........*/
+ .sec-5{
+  padding: 70px 50px;
+  background-color: #f8f8f8;
+  
+ }
+ .sec-5 .sec-5-text{
+
+width: 50%;
+float: left;
+margin-top: 20px;
+
+ }
+ .map{
+  float: left;
+  width: 30%;
+  padding-left: 30px;
+ }
+ 
+
+.sec-5-text img{
+  width: 35px;
+  vertical-align: middle;
+
+  border-radius: 50%;
+  background-color: #8e7754;
+  margin-right: 10px;
+}
+.sec-5-text .icon{
+  line-height: 3.5;
+    color: #686868;
+}
+.sec-5-text .text5-1{
+  padding: 30px 0 ;
+  color: #686868;
+}
+.sec-5-text .text5-2{
+  padding-bottom: 30px;
+    color: #686868;
+}
+/***/
+.footer{
+  background-color: #403d38;
+  padding: 70px 40px;
+  color: #99968f;
+}
+.footer div{
+  width: 24%;
+ margin-right:10px ;
+
+}
+.footer img{
+  width: 20px;
+  vertical-align: sub;
+}
+.footer .f-4 img{
+  width: 35px;
+  vertical-align: middle;
+  
+}
+.footer li{
+  list-style: none;
+}
+.float{
+  float: left;
+}
+.footer hr{
+  margin: 15px 0;
+  border: #938f871a solid 0.1px;
+
+}
+ .footer h4{
+  margin-bottom: 35px;
+  color: white;
+ }
+ .footer .f-1 p{
+line-height: 2;
+margin-bottom: 15px;
+ }
+ .footer .f-4{
+  background-image: url("./images/contact-details-map.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+ }
+ /*........*/
+.end{
+  background-color: #353330;
+  padding-bottom: 30px;
+padding-top: 70px;
+}
+.end .logo{
+width: 30%;
+margin: auto;
+padding-bottom: 20px;
+}
+.end p{
+  text-align: center;
+  color: #686868;
+}
+.end .social-icon{
+  width:17%;
+  margin: auto;
+
+  margin-top: 20px;
+
+
+}
+.end .social-icon img{
+  width: 40px;
+  border-radius: 50%; 
+background-color: #403d38;
+  margin-right: 5px;
+
+}
+.end .social-icon img:nth-of-type(1):hover{
+  background-color:#3B5998;
+    transition: 0.6s;
+}
+.end .social-icon img:nth-of-type(2):hover {
+  background-color: #DD4B39;
+    transition: 0.6s;
+}
+.end .social-icon img:nth-of-type(3):hover {
+  background-color: #007BB5;
+    transition: 0.6s;
+}
+.end .social-icon img:nth-of-type(4):hover {
+  background-color: #00ACED;
+  transition: 0.6s;
+}
+
+
